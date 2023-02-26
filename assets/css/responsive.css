@@ -1,0 +1,304 @@
+@media (min-width: 64em) {
+  #header .mobile-menu-btn {
+    display: none;
+  }
+  #banner .row {
+    align-items: normal;
+    margin: 0;
+  }
+  #banner .container {
+    padding: 0;
+  }
+  #banner .col-md-6:first-of-type {
+    padding-left: 0;
+  }
+  #banner .col-md-6:last-of-type {
+    padding-right: 0;
+  }
+  #banner {
+    padding-top: 56%;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  #banner h2 {
+    font-size: 2.5rem;
+    padding-right: 0;
+  }
+  #banner p {
+    font-size: 1.5rem;
+  }
+  #tabs {
+    padding: 100px 0 70px;
+  }
+  #tabs h3 {
+    margin-bottom: 30px;
+  }
+  #tabs p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  #sub {
+    padding: 110px 0 70px;
+  }
+  #sub .sub-img__left {
+    transform: translateX(0);
+  }
+  #sub .sub-content {
+    padding: 0;
+    margin: 0;
+  }
+  #standard .standard-content {
+    padding: 0;
+    margin-right: 0;
+  }
+  #standard .standard-img__right {
+    transform: translateX(0);
+  }
+  #design h2 {
+    font-size: 3rem;
+  }
+  #design p {
+    font-size: 1.3rem;
+  }
+  #contact h2 {
+    font-size: 3rem;
+  }
+  #header .mobile-menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+  }
+  #header .mobile-menu-btn:hover {
+    background-color: var(--light-black);
+    filter: brightness(90%);
+  }
+  #header .menu-icon {
+    height: 2px;
+    border-radius: 1px;
+    width: 22px;
+    background-color: var(--text-white);
+    display: block;
+  }
+  #navbar .list {
+    list-style: none;
+    position: fixed;
+    background-color: var(--text-black);
+    left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    top: -200%;
+    border-top: 1px solid var(--border-color);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  #navbar .list.show {
+    top: 68px;
+  }
+  #navbar .list__item {
+    display: block;
+    padding-right: 16px;
+  }
+  #navbar .list__item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  p {
+    font-size: 1.3rem;
+  }
+  #banner {
+    height: 850px;
+  }
+  #banner .col-md-6:first-of-type {
+    padding-left: 0;
+  }
+  #banner .col-md-6:last-of-type {
+    padding-right: 0;
+  }
+  #banner .container {
+    padding: 0;
+  }
+
+  #banner .img-banner {
+    text-align: center;
+    margin-top: 15px;
+  }
+  #banner form {
+    max-width: 345px;
+    float: initial;
+    margin: 50px 0 auto;
+  }
+  #tabs .square-item {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+  }
+  #design {
+    padding-top: 40%;
+  }
+}
+@media (max-width: 46.1875em) {
+  #header {
+    overflow: hidden;
+  }
+  #header .mobile-menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+  }
+  #header .mobile-menu-btn:hover {
+    background-color: var(--light-black);
+    filter: brightness(90%);
+  }
+  #header .menu-icon {
+    height: 2px;
+    border-radius: 1px;
+    width: 22px;
+    background-color: var(--text-white);
+    display: block;
+  }
+  #navbar .list {
+    list-style: none;
+    position: fixed;
+    background-color: var(--text-black);
+    left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    top: -200%;
+    border-top: 1px solid var(--border-color);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  #navbar .list.show {
+    top: 68px;
+  }
+  #navbar .list__item {
+    display: block;
+    padding-right: 16px;
+  }
+  #navbar .list__item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  #banner .row {
+    margin: 0;
+  }
+  #banner .img-banner {
+    text-align: center;
+  }
+  #banner {
+    padding-top: 56%;
+    height: 1020px;
+    margin-top: 68px;
+  }
+  #banner form {
+    float: initial;
+    margin: 50px auto 0;
+  }
+  #tabs .square-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+  }
+  #tabs .square-item {
+    display: inline-block;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+  }
+  #tabs .square-item > a {
+    font-size: 1.3rem;
+  }
+  #tabs .square-item:first-of-type {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  #tabs .square-item:last-of-type {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  #tabs img {
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+  }
+  #sub .sub-icon {
+    margin-bottom: 10px;
+  }
+  #sub .text-center {
+    text-align: left !important;
+  }
+  #awesome h2 {
+    font-size: 3rem;
+  }
+  #awesome p {
+    font-size: 1.3rem;
+  }
+  #awesome .row {
+    row-gap: 16px;
+  }
+  #design {
+    height: 400px;
+  }
+  #design p {
+    font-size: 1.3rem;
+    white-space: break-spaces;
+  }
+  #contact {
+    padding: 80px 0;
+  }
+  #contact p {
+    font-size: 1.3rem;
+    margin-bottom: 60px;
+  }
+  #contact textarea {
+    height: 180px;
+    padding: 30px 0 0 10px;
+  }
+  .footer-content a {
+    font-size: 2rem;
+  }
+  .btn-orange {
+    width: 112px;
+    height: 42px;
+    font-size: 1.3rem;
+    line-height: 32px;
+  }
+}
